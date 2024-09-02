@@ -16,7 +16,7 @@ function checkBatteryStatus() {
             });
         } else {
             console.log('Battery API not supported.');
-            resolve(null); // API not supported
+            resolve(null); 
         }
     });
 }
